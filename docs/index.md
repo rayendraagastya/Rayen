@@ -71,6 +71,84 @@ Linux telah dilengkapi dengan windows emulator (Wine) sehingga kamu bisa menjala
 
 
 
-## Project layout
+## DHCP
 
-    
+Mengenal Pengertian DHCP ? DHCP ADALAH
+Oleh karena itu, artikel ini akan membagikan informasi terkait apa itu DHCP, kemudian fungsinya untuk apa, hingga cara kerja yang dilakukan oleh DHCP dalam membangun sebuah jaringan. Simak informasinya hanya di sini!
+
+Apa Itu DHCP ? DHCP Adalah
+DHCP Adalah: Pengertian dan Fungsinya dalam Dunia Internet
+
+Dynamic Host Configuration Protocol atau kita singkat menjadi DHCP adalah sebuah protokol yang memang dipakai dengan tujuan untuk memudahkan penyebaran alamat IP atau internet protocol dengan otomatis ke perangkat yang lainnya.
+
+Jika tidak ada keberadaannya, maka Anda harus melakukan proses konfigurasi yang manual pada setiap komputer untuk bisa mendapatkan alamat IP yang berbeda. Tentunya proses dengan cara yang manual akan lebih merepotkan dan akan menghabiskan waktu yang banyak terlebih untuk jaringan besar.
+
+Alamat IP atau IP Address adalah sebuah barisan angkat yang terdapat pada perangkat yang bisa memungkinkan perangkat Anda nantinya bisa terhubung dengan Internet. Dengan begitu, Anda bisa membuat perangkat Anda mengakses halaman web, email, dan bahkan yang lainnya.
+
+Penggunaan DHCP inilah yang membuat alamat IP bisa lebih mudah dibagikan ke perangkat dalam jumlah yang banyak dengan satu waktu dan secara otomatis. Oleh karena itu, keberadaannya sangat membantu dalam pembangunan jaringan internet baik skala kecil ataupun besar.
+
+Perbedaan DHCP Server dengan DHCP Client
+Perbedaan DHCP Server dengan DHCP Client
+
+Dalam sebuah membangun jaringan komputer dan internet, tentunya Anda akan temukan istilah server dengan client. Server merupakan perangkat yang akan menyimpan seluruh data, mengelola, mengatur semua aktivitas yang ada dalam sebuah jaringan yang saling terhubung tersebut.
+
+Client merupakan perangkat yang akan meminta layanan dari server. pada DHCP akan mengenal DHCP server dan DHCP client. Keduanya mempunyai perbedaan fungsi dan peran kerjanya. Inilah penjelasan terkait perbedaan tersebut:
+
+DHCP Server
+Posisi ini merupakan perangkat yang mempunyai tugas untuk mengatur dan juga memberikan alamat IP dengan otomatis kepada komputer client yang sudah ada. IP yang diberikan kepada client tentunya merupakan IP yang khusus dan dinamis, sehingga IP ini dapat kadaluwarsa.
+
+Pada bagian server akan bertugas untuk memperbarui masa alamat IP dengan otomatis. Inilah kelebihan yang digunakan dari perangkat, sehingga komputer client tidak harus melakukan apa pun.
+
+DHCP Client
+DHCP client merupakan sebuah perangkat lain atau komputer lain bahkan handphone yang tugasnya menerima alamat IP dari server setelah melakukan permintaan. Semua akses yang ingin dijalankan oleh client memang harus mendapat persetujuan dari server.
+
+Sederhananya untuk lebih mudah dipahami, server yang memberikan ijin kepada client yang sudah melakukan permintaan.
+
+Fungsi dari DHCP Server
+Setelah mengetahui bahwa terdapat keberadaan server dan client, saatnya Anda ketahui fungsi DHCP yang dimiliki dari server, yaitu:
+
+Kelola dan distribusi alamat IP
+Umumnya fungsi dari penggunaannya memang untuk melakukan kelola dan memudahkan proses distribusi alamat IP ke komputer client. Proses distribusi ini memang bisa dilakukan ke perangkat yang banyak secara otomatis, sehingga Anda tidak perlu lakukan konfigurasi DHCP secara manual ke setiap komputer.
+
+Cegah IP conflict
+IP conflict bisa muncul dikarenakan adanya dua perangkat yang mempunyai alamat IP yang sama. Ketika hal ini terjadi, maka perangkat tersebut tidak bisa terhubung dalam jaringan.
+
+Namun dengan gunakan DHCP inilah, kejadian seperti itu bisa diminimalisir. Selain itu juga mampu dalam mengelola pembagian alamat IP dengan baik, kesalahan juga bisa minim terjadi.
+
+Perbarui alamat IP dengan otomatis
+Alamat IP bisa diperbarui dengan otomatis karena ada keberadaannya, pembaruan yang dilakukan bisa dilakukan secara otomatis tanpa harus melakukan konfigurasi kembali.
+
+Hal ini dilakukan karena IP yang diberikan dari server memang bersifat sementara yang mana mempunyai masa pakai atau kadaluwarsa. Oleh karena itu, pada saat masa pemakaian sudah berakhir, Anda perlu lakukan pembaruan dan meminta alamat IP yang baru.
+
+Dukung pengguna kembali alamat IP
+Tentu saja, alamat IP yang sudah pernah digunakan, masih bisa didaur ulang dan dapat digunakan kembali oleh komputer client yang lainnya. Hanya saja, saat menggunakannya kembali harus dipastikan alamat IP tersebut tidak sedang digunakan perangkat yang lain.
+
+Itulah penjelasan terkait fungsi yang ada dari Dynamic Host Configuration Protocol yang berperan sebagai server. Jadi memang sudah dipastikan Anda akan membutuhkannya, jika ingin membantu sebuah jaringan internet.
+
+Baca Juga : Cara Melihat IP Address di Semua Perangkat Windows, Android, iOS, Mac
+
+Cara Kerja dari DHCP Server
+Setelah mengenal fungsinya maka Anda perlu memperluas ilmu Anda terkait dengan cara kerjanya. Saat Anda sudah menghubungkan komputer ke server, maka dengan otomatis komputer akan meminta alamat IP. Setelah itu, server yang akan menjawab permintaan hingga komputer bisa dapatkan alamat IP.
+
+Jika masih dirasa bingung, inilah penjelasan dari cara kerjanya:
+
+Tahap penemuan atau IP Least Discovery
+Tahap ini terjadi saat client sudah terhubung dengan jaringan dan akan mencari server pada jaringan tersebut. Nantinya client akan kirimkan pesan DHCPDISCOVER pada subnet jaringan dengan alamat tujuan 255.255.255.255. Setelah ditemukan, saat ini meminta alamat IP.
+
+Tahap server terima pesan atau IP Least Offer
+Server akan menerima pesan Anda dan membuat penawaran dengan pesan DHCPOFFER. Pesan ini sudah berisi id, alamat IP, subnet mask, durasi penggunaan dan alamat dari IP DHCP server.
+
+Tahap
+penawaran dan persetujuan atau IP Lease Request
+Di sini client akan menyetujui penawaran dengan pesan DHCPREQUEST dan meminta server pinjamkan satu alamat IP yang tersedia.
+
+Tahap penerima pesan dari client atau IP Lease Acknowledge
+Tahap terakhir inilah, server sudah menerima pesan dari client dan mengirim pesan paket DHCPACK dimana akan berisi informasi alamat IP, durasi sewa, dan informasi lainnya. Proses ini sudah selesai dan server akan mencoret dan beri tanda alamat IP sudah digunakan.
+
+Proses ini berakhir dengan komputer client yang sudah bisa digunakan untuk jaringan internet dan bisa melakukan pertukaran data dengan komputer client lainnya yang terhubung dalam jaringan lokal.
+
+Jadi, bagaimana? Keberadaan DHCP memang menguntungkan bukan untuk sebuah jaringan internet? Tentu saja, admin server tidak perlu lakukan setting alamat IP dengan cara yang manual hingga bisa menghindari terjadi IP conflict.
+
+DHCP juga mampu mengaktifkan kembali alamat IP yang sudah pernah digunakan, oleh karena itu banyak orang yang menggunakannya untuk lebih membantu dalam dunia jaringan internet. Jangan sampai, Anda lewatkan informasi menarik lainnya seputar Dynamic Host Configuration Protocol.
+
+
