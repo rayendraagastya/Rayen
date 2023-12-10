@@ -1,12 +1,76 @@
 # Rayendra Project
 
 
-## DHCP
+##Cara Install Linux Lengkap Untuk Pemula
+
+ 
+Mau Serius Belajar Linux?
+
+
+Jika kamu baru belajar linux,kamu perlu mencoba linux dengan tangan mu secara langsung untuk merasakan sensasi linux.
+
+Kamu bisa mencoba menginstall linux di komputermu dengan berbagai cara yang bisa kamu pilih sesuai dengan keadaan dan keinginan mu.
+
+Ada beberapa cara untuk menginstall linux di komputer mu simak baik-baik dan pilih solusi yang cocok untuk mu.
+
+A. Mencoba Linux tanpa Install (Live CD)
+Walau bisa tapi saya tidak merekomendasikan menggunakan tehnik ini untuk memulai belajar linux, justru tehnik ini dipakai oleh orang yang telah ahli dan mahir linux untuk tujuan perbaikan sistem/maintenance.
+
+Pasti kamu berontak kenapa gak boleh dan tidak saya  rekondasikan? Alasan nya adalah jika kamu menggunakan live CD maka semua perubahan dan update yang kamu lakukan pada linux Live CD akan hilang dan tidak tersimpan ketika komputer direstart.
+
+Setiap kali menggunakan linux Live Cd harus setting ini itu untuk memulai belajar linux,ini sangat gak efisien dan membuang waktumu.
+
+Jika kamu tetap ingin mencoba linux secara live tetapi perubahan yang kamu lakukan tersimpan walau komputer restart,kamu bisa mencoba menggunakan cara Persistence Live USB Flashdisk
+
+B.Mencoba Linux tanpa Install (Persistence Live USB)
+Berbeda dengan cara  live CD yang tidak menyimpan perubahan setelah komputer restart,metode Persistence Live USB Flashdik memungkinkan linux untuk menyimpan perubahan walau komputer direstart.
+
+Cara ini ada batasan nya seperti tidak bisa update kernel dan mengubah file system namun kamu bisa belajar dan bermain dengan linux dengan menyenangkan dari install aplikasi hingga bisa menjalankan linux di komputer manapun tanpa perlu install apapun,cukup dengan colok USB Flashdiskmu.
+
+C. Install Linux Dual Boot Windows
+Artinya kamu akan menginstall Linux pada hardisk yang sama tanpa harus menghapus Windows jadi hardisknya akan di bagi dua.
+
+Jadi nanti ketika menghidupkan komputer kamu tinggal pilih mau pakai windows atau linux.
+
+Keunggulan install linux dengan teknik dual boot:
+
+Linux akan berjalan dengan performa sesui dengan kemampuan/spec hardware
+Sistem operasi lama tidak akan terhapus dan tetap bisa digunakan dengan memilih sistem operasi mana yang akan digunakan saat booting
+File yang berada di sistem operasi sebelum nya bisa kamu buka dan kelola dari linux
+Kekurangan install linux dengan tehnik dual boot:
+
+Perlu mengukuti panduan dengan teliti dan berhati-hati agar tidak terpeleset saat melakukan pra dan proses installasi yang menyebabkan file yang berada di sistem operasi sebelum nya terhapus secara tidak sengaja.
+File yang berada di linux tidak bisa dibuka dari windows, jika diletakan di partisi linux/ partisi dengan format yang tidak didukung windows (selain FAT & NTFS windows gak bisa baca)
+Perlu restart komputer untuk berpindah dari sistem operasi linux ke sistem operasi sebelum nya dan sebaliknya.
+Baca : Cara Install Linux Berdampingan Dengan Windows (Dual Boot)
+ 
+D. Install Linux di Windows (virtualisasi)
+Kamu bisa menginstall linux didalam Windows dengan aplikasi virtualisasi cara ini berbeda dengan cara yang di sebutkan di atas karena kamu tidak perlu memecah/membagi harddisk.
+
+Kamu hanya perlu install software virtualisasi Virtualbox dan kamu sudah bisa menjalankan linux di dalam windows.
+
+
+Keunggulan install linux dengan tehnik Virtualisasi :
+
+Lebih mudah dari teknik dual boot karena tidak perlu melakukan pemecahan partisi
+Tidak ada resiko file hilang karena terpeleset saat proses intall, karena tehnik ini tidak mengubah struktur harddisk.
+Kamu bisa menggunakan Linux dan Windows/sistem operasi lain pada saat yang bersamaan tanpa perlu proses restart untuk memilihnya seperti tehnik dual boot.
+Kekurangan install linux dengan tehnik Virtualisasi :
+
+Memerlukan ruang Harddisk dan RAM lebih banyak,karena secara teknis kamu menjalankan 2 sistem operasi di satu komputer sehingga performa/kecepatan komputer akan terpecah.
+Kecepatan Linux tidak secepat saat menggunakan teknik dual boot
+Sistem operasi utama (Windows) akan sedikit lambat karena RAM dan hardisk dipakai sebagian oleh Linux yang berjalan secara Virtualisasi.
+Baca: Cara Install Linux Di Windows Dengan VirtualBox
+E. Install Linux Sebagai OS Utama
+Jika kamu sudah memastikan 100% tidak ada lagi aplikasi windows yang diperlukan untuk menyelesaikan pekerjaan mu, maka kamu bisa menggunakan linux secara penuh dengan cara install linux secara langsung di harddisk/SSD mu.
+
+Cara ini akan menghapus data dan merubah struktur partisi yang ada pada hardisk/SSD agar linux bisa berjalan secara optimal di komputermu.
+
+
+Linux telah dilengkapi dengan windows emulator (Wine) sehingga kamu bisa menjalankan beberapa aplikasi windows di linux secara langsung.
+
 
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    
