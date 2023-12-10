@@ -1,4 +1,4 @@
 site_name: Rayendra Project
-pages:
+nav:
     - Home: index.md
     - About: about.md
